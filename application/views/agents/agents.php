@@ -34,3 +34,10 @@ $noOfPros = mysql_num_rows($agntProfiles);
 <?php } else { ?>
 <div class="info" style="width: 300px;">You have not added any agents yet.</div>
 <?php } ?>
+
+<script>
+function LoadAddDSDialog()
+{
+	tb_show("", "<?php echo base_url(); ?>index.php/dumper/load_add_agent_dialog");
+}
+</script>

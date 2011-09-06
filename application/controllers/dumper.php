@@ -20,10 +20,18 @@ class Dumper extends CI_Controller
 		$this->template->render();
 	}
 	
-	function agents() 
+	function agents($agentName) 
 	{
 		
 	}
+	
+	function add_new_agent()
+	{
+		$this->template->write('header', '<div id="band-button-center" class="head-font" align="center">Add New Agent</div>');
+		$this->template->write_view('content', 'agents/add_agent');
+		$this->template->render();
+	}
+	
 	
 }
 
