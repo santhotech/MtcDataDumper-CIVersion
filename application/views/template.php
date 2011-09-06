@@ -41,8 +41,8 @@
 </div>
 <div id="nodiv" class="hidden"></div>
 <div id="mainbody">
-<div id="actdiv" style="padding: 10px 10px 25px 10px" align="left"></div>
-<?= $content ?>
+<div id="actdiv" style="padding: 10px 10px 25px 10px" align="center"></div>
+<div align="center"><?= $content ?></div>
 </div>
 <div id="footer">
 <?= $footer ?>

@@ -92,7 +92,10 @@ class Auth extends CI_Controller
 					$data['captcha_html'] = $this->_create_captcha();
 				}
 			}
-			$this->load->view('auth/login_form', $data);
+			
+			 $this->template->write('header', '<div id="band-button-center" class="head-font" align="center">User Login</div>');
+			 $this->template->write_view('content', 'auth/login_form',$data);
+			 $this->template->render();
 		}
 	}
 

@@ -382,3 +382,17 @@ p{
   border-bottom-style:solid; border-bottom-width:1px; border-bottom-color:#CCCCCC; padding-left:10px; cursor:pointer; }
 #list4 ul li a:hover { color:#FFFFFF; background-image:url(../images/hover.png); background-repeat:repeat-x; }
 #list4 ul li a strong { margin-right:10px; }
+
+input[type="text"] {
+	height: 25px;
+	background: #ffffff
+}
+input[type="password"] {
+	height: 25px;
+	background: #ffffff
+}
+input[type="submit"] {
+	height: 25px;
+	background: #ffffff;
+	border: 1px solid #000;
+}
