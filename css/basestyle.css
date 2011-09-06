@@ -227,6 +227,7 @@ margin: 10px 0px;
 padding:15px 10px 15px 50px;
 background-repeat: no-repeat;
 background-position: 10px center;
+width: auto;
 }
 .info {
 color: #00529B;
@@ -395,4 +396,15 @@ input[type="submit"] {
 	height: 25px;
 	background: #ffffff;
 	border: 1px solid #000;
+	padding: 2px 4px 2px 4px
+}
+a.link1 {
+	color: #400080;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+label {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
 }

@@ -191,7 +191,12 @@ class Auth extends CI_Controller
 			$data['use_username'] = $use_username;
 			$data['captcha_registration'] = $captcha_registration;
 			$data['use_recaptcha'] = $use_recaptcha;
-			$this->load->view('auth/register_form', $data);
+			
+			$this->template->write('header', '<div id="band-button-center" class="head-font" align="center">User Registration</div>');
+			 $this->template->write_view('content', 'auth/register_form',$data);
+			 $this->template->render();
+			
+			
 		}
 	}
 

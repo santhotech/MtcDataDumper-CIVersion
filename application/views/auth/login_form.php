@@ -46,12 +46,13 @@ $captcha = array(
 	</tr>
 
 	<tr>
-		<td colspan="3">
+		<td><input type="submit" value="Login" style="width: 50px" /></td><td>
 			<?php echo form_checkbox($remember); ?>
-			<?php echo form_label('Remember me', $remember['id']); ?>
-			<?php if ($this->config->item('allow_registration', 'tank_auth')) echo anchor('/auth/register/', 'Register'); ?>
-		</td>
+			<?php echo form_label('Remember me', $remember['id']); ?>			
+		</td><td></td>
 	</tr>
+
+
 </table>
-<input type="submit" value="Login" style="width: 50px" />
 <?php echo form_close(); ?>
+<?php if ($this->config->item('allow_registration', 'tank_auth')) echo anchor('/auth/register/', 'Click here to Register an Account', 'class=link1'); ?>
