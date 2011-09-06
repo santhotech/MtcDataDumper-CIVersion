@@ -1,0 +1,151 @@
+th { font-size: 12px; font-family: Arial, Helvetica, sans-serif; }
+.form-label { font-size:13px; font-family: Arial, Helvetica, sans-serif; color: #808080; font-weight: bold; }
+table { border: 1px solid Navyblue }
+.cr { color: red }
+.cg { color: green }
+.tme { color: #452807 }
+#acttab
+		{
+		width:90%;
+		background-color:#FFFFFF;
+		border-radius: 46px;
+-moz-border-radius: 46px;
+-webkit-border-radius: 46px;
+-webkit-box-shadow: 0 0 5px 5px #000;
+		}
+		.h3-style { color: #FFF99E; font-family: Helvetica; text-shadow:0px 2px 8px #A3AD15 }
+		h5 { color: #030524; font-family: Arial; text-shadow:1px 3px 8px #030524 }
+		.heading { color: #06613B; }
+		.togvu { color: #BFEBF2; font-family: Helvetica; text-shadow:0px 2px 8px #BFEBF2; font-size: 14px; font-weight: bold  }
+		h1 { color: #FFF99E; font-family: Helvetica; text-shadow:0px 2px 8px #A3AD15; margin: 0px; padding: 0px; }
+		.buttdes
+		{
+		-webkit-box-shadow:0px 8px 10px #333333;
+		border-radius:10px;
+		width: 110px;
+		height: 20px;
+		text-align:center;
+		font-weight: bold;
+		font-family: Arial;
+		font-size: 13px;
+		text-shadow: 2px 2px 2px #000;
+		border: 1px solid #333333;
+		}
+		.buttdes:hover
+		{
+		-webkit-box-shadow:0px 8px 10px #333333;
+		border-radius:10px;
+		width: 110px;
+		height: 20px;
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#666666), color-stop(.6,#333));
+		color: yellow;
+		text-align:center;
+		font-weight: bold;
+		font-family: Arial;
+		font-size: 13px;
+		text-shadow: 2px 2px 2px #000;
+		border: 1px solid #333333;
+		}
+		.bgcol
+		{
+		color: #D0F5ED;
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#031066), to(#432B66), color-stop(.6,#1A84AB));
+		}
+		#dsrtab
+		{
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#666666), color-stop(.6,#333));
+		border-radius: 46px;
+		-webkit-box-shadow: 0 0 5px 5px #E2F5D0;
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		}
+		
+		.txtb
+		{
+		border-radius: 16px;
+		padding-left: 5px;
+		background:#000; color:#FFFFFF; font-weight:bold;
+		}
+		.txtb:focus
+		{
+		border-radius: 14px;
+		padding-left: 5px;
+		background:#000; color:#FFFFFF; font-weight:bold;
+		border: 2px solid yellow;
+		outline: none;
+		}
+		.xtdt
+		{
+		font-size: 12px;
+		color: #E2F5D0;
+		font-weight:bold;
+		}
+		.xtdtr
+		{
+		font-size: 12px;
+		color: #F5D0D4;
+		font-weight:bold;
+		}
+		.hliteff
+		{
+		color: #E2F5D0; font-family: Arial; text-shadow:1px 3px 8px #030524;
+		font-size: 14px; !important
+		}
+		select
+		{
+		background:#000; color:#FFFFFF; font-weight:bold;
+		}
+		.ncl
+		{
+		font-family: arial; color: #66041C; font-size: 12px;
+		}
+		.dialog{
+		background: #E7E7E7;
+		border-radius: 10px;
+		-webkit-box-shadow: 0 0 4px 1px #CCCCCC;				
+		}
+		.dialog-header{
+			border-bottom:1px solid #000000;
+			background: #DDDDDD;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+		}
+		.dialog .dialog-title
+		{			
+			margin:0;
+			padding:5px;
+			color: #626262;
+			text-shadow: 0 1px 0 #FFFFFF;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.dialog-body
+		{			
+			padding: 10px 20px 10px 20px;			
+		}
+		
+		.dialog-btn-disabled
+		{
+			padding: 2px 10px 2px 10px;
+			border-radius: 9px;
+			outline: none;
+			background: #cccccc;
+			color: #FFFFFF;
+		}	
+		.dialog-btn
+		{
+			padding: 2px 10px 2px 10px;
+			border-radius: 9px;
+			outline: none;
+			background: #000000;
+			color: #FFFFFF;
+		}		
+		.frm-field {
+			text-align: left;
+			font-weight: bold;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 13px;
+			color: #000066;		
+			padding-top: 3px;	
+		}
