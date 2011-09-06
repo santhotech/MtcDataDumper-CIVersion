@@ -7,8 +7,8 @@
 | These details are used in emails sent by authentication library.
 |--------------------------------------------------------------------------
 */
-$config['website_name'] = 'Pull Cloud';
-$config['webmaster_email'] = 'team@pullcloud.com';
+$config['website_name'] = 'MTC Dumper';
+$config['webmaster_email'] = 'admin@mtcdumper.com';
 
 /*
 |--------------------------------------------------------------------------
@@ -40,11 +40,11 @@ $config['phpass_hash_strength'] = 8;
 |--------------------------------------------------------------------------
 */
 $config['allow_registration'] = TRUE;
-$config['captcha_registration'] = TRUE;
+$config['captcha_registration'] = FALSE;
 $config['email_activation'] = FALSE;
 $config['email_activation_expire'] = 60*60*24*2;
 $config['email_account_details'] = FALSE;
-$config['use_username'] = TRUE;
+$config['use_username'] = FALSE;
 
 $config['username_min_length'] = 4;
 $config['username_max_length'] = 20;

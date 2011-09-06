@@ -1,6 +1,6 @@
 <?php 
 
-class Welcome extends CI_Controller
+class Dumper extends CI_Controller
 {
 	function __construct()
 	{
