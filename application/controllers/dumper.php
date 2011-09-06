@@ -15,8 +15,8 @@ class Dumper extends CI_Controller
 	function index()
 	{
 		$data["agents"] = $this->db->get_where("agents",array("added_by" => $this->user_id));
-		$this->template->write('header', '<div id="band-button-center" class="head-font" align="center">Agents</div>');
-		$this->template->write_view('content', 'agents',$data);
+		$this->template->write_view('header', 'agents/include/header');
+		$this->template->write_view('content', 'agents/agents',$data);
 		$this->template->render();
 	}
 	

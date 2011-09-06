@@ -3,23 +3,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>MTConnect Data Tabulator - v2.0</title>
-<script type="text/javascript" language="javascript"
-	src="<?php echo base_url(); ?>js/jquery.js"></script>
-<script type="text/javascript" language="javascript"
-	src="<?php echo base_url(); ?>js/ajaxfunc.js"></script>
-<script type="text/javascript" language="javascript"
-	src="<?php echo base_url(); ?>js/jqfunc.js"></script>
-<script type="text/javascript" src="js/thickbox.js"></script>
-
-
-
+<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/thickbox.js"></script>
 <link rel="stylesheet" href="<?php echo base_url(); ?>css/thickbox.css"
 	type="text/css" media="screen" />
 <link rel="stylesheet" type="text/css"
 	href="<?php echo base_url(); ?>css/style.css" />
 <link rel="stylesheet" type="text/css"
 	href="<?php echo base_url(); ?>css/basestyle.css" />
-
 </head>
 <body>
 <div id="page-container">
